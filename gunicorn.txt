@@ -1,0 +1,59 @@
+ 1  sudo apt update
+    2  sudo apt upgrade
+    3  python3  \
+    4  sudo apt update
+    5  sudo apt upgrade
+    6  sudo apt update
+    7  sudo apt upgrade
+    8  python3 --version
+    9  sudo apt install python3-pip
+   10  pipi list
+   11  pip list
+   12  sudo apt install python3-venv
+   13  sudo apt update
+   14  sudo apt upgrade
+   15  sudo  apt install python3-pip
+   16  sudo apt install python3-venv
+   17  python3 -m venv demo
+   18  ls
+   19  source demo/bin/activate
+   20  pip install django
+   21  git clone https://github.com/Thilak1435/sample1
+   22  ls
+   23  cd sample1
+   24  cd django_web_app/
+   25  pip install gunicorn
+   26  which gunicorn
+   27  sudo apt install supervisor
+   28  cd django_web_app/
+   29  pwd
+   30  which gunicorn
+   31  cd /etc/supervisor/conf.d
+   32  sudo nano gunicorn.conf
+   33  sudo supervisorctl reread
+   34  sudo supervisorctl update
+   35  sudo supervisorctl status
+   36  cd
+   37  ls
+   38  cd sample1
+   39  ls
+   40  sudo apt install nginx
+   41  cd /etc/nginx/sites-available
+   42  ls
+   43  sudo nano default
+   44  sudo service nginx restart
+   45  sudo service nginx status
+   46  cd
+   47  ls
+   48  cd sample1
+   49  ls
+   50  cd django_web_app/
+   51  ls
+   52  python3 manage.py makemigrations
+   53  pip install crispy-forms-bootstrap2
+   54  python3 manage.py makemigrations
+   55  pip install pillow
+   56  python3 manage.py makemigrations
+   57  python3 manage.py migrate
+   58  python3 manage.py runserver 0.0.0.0:8000
+   59  history
