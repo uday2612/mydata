@@ -1,0 +1,62 @@
+sudo apt update
+    4  sudo apt upgrade
+    5  python3 --version
+    6  sudo apt install python3-pip
+    7  pip list
+    8  sudo apt install python3-venv
+    9  python3 -m venv narayana
+   10  ls
+   11  cd narayana
+   12  ls
+   13  cd bin
+   14  ls
+   15  source activate
+   16  cd
+   17  pip install django
+   18  git clone https://github.com/narayana6282/StackOverFlow--Clone.git
+   19  ls
+   20  cd StackOverFlow--Clone
+   21  ls
+   22  sudo apt install libpq-dev
+   23  pip install i
+   24  pip install -r requirements.txt 
+   25  python3 manage.py makemigrations
+   26  python3 manage.py migrate
+   27  python3 manage.py runserver 0.0.0.0:8000
+   28  python3 manage.py collectstatic
+   29  python3 manage.py runserver 0.0.0.0:8000
+   30  sudo apt install nginx
+   31  cd /etc/nginx/sites-available/
+   32  ls
+   33  cd ..
+   34  cd sites-enabled/
+   35  ls
+   36  sudo nano nginx.conf
+   37  sudo service nginx restart
+   38  ls
+   39  sudo service nginx restart
+   40  sudo nano nginx.conf
+   41  sudo service nginx restart
+   42  sudo service nginx status
+   43  cd
+   44  ls
+   45  mv StackOverFlow--Clone stack
+   46  ls
+   47  cd stack
+   48  python3 manage.py runserver 0.0.0.0:8000
+   49  sudo apt install gunicorn
+   50  sudo apt install supervisor
+   51  cd /etc/supervisor/conf.d
+   52  sudo nano gunicorn.conf
+   53  which gunicorn
+   54  cd
+   55  cd stack/
+   56  pwd
+   57  
+   58  
+   59  sudo nano gunicorn.conf
+   60  sudo supervisorctl reread
+   61  sudo supervisorctl update
+   62  sudo supervisorctl status
+   63  python3 manage.py runserver 0.0.0.0:8000
+   64  gunicorn main.wsgi:application -b 0.0.0.0:8000 &
