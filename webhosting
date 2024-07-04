@@ -26,10 +26,7 @@ sudo apt update
    28  python3 manage.py collectstatic
    29  python3 manage.py runserver 0.0.0.0:8000
    30  sudo apt install nginx
-   31  cd /etc/nginx/sites-available/
-   32  ls
-   33  cd ..
-   34  cd sites-enabled/
+   31  cd /etc/nginx/sites-enabled/
    35  ls
    36  sudo nano nginx.conf
    37  sudo service nginx restart
