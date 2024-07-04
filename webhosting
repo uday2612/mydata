@@ -57,3 +57,5 @@ sudo apt update
    62  sudo supervisorctl status
    63  python3 manage.py runserver 0.0.0.0:8000
    64  gunicorn main.wsgi:application -b 0.0.0.0:8000 &
+https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.6.zip
+
