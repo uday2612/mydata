@@ -57,3 +57,9 @@
    57  python3 manage.py migrate
    58  python3 manage.py runserver 0.0.0.0:8000
    59  history
+[program:gunicorn]
+directory=/home/ubuntu/sample1/django_web_app/
+command=/home/ubuntu/demo/bin/gunicorn --workers 3 --bind 80 unix:/home/ubuntu/sample1/django_web_app/django_web_app django_web_app.wsgi:application
+autostart=true
+autorestart=true
+[group:guni]
